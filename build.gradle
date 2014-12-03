@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile 'com.google.guava:guava:11.+'
+    compile 'com.google.caliper:caliper:0.5-rc1'
+    compile 'org.apache.commons:commons-lang3:3.+'
+
+    testCompile 'junit:junit:4.+'
+    testCompile 'org.mockito:mockito-all:1.9.+'
+
+    compile 'com.stewsters.util:stewsters-util:0.9'
+}
+
+mainClassName = 'benchmarks.Pathfinder'
+
+run {
+    args '-Jsettings=-server,-XX:BiasedLockingStartupDelay=0'
+}
