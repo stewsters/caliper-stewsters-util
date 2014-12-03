@@ -17,7 +17,9 @@ dependencies {
     testCompile 'junit:junit:4.+'
     testCompile 'org.mockito:mockito-all:1.9.+'
 
-    compile 'com.stewsters.util:stewsters-util:0.9'
+//    compile 'com.stewsters.util:stewsters-util:0.9'
+    compile project(':stewsters-util')
+
 }
 
 mainClassName = 'benchmarks.Pathfinder'
