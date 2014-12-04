@@ -1,4 +1,4 @@
-package benchmarks.test;
+package com.stewsters.examples;
 
 import com.stewsters.util.pathing.threeDimention.shared.Mover3d;
 import com.stewsters.util.pathing.threeDimention.shared.PathNode3d;

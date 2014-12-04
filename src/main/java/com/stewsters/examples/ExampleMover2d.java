@@ -1,4 +1,4 @@
-package benchmarks.test;
+package com.stewsters.examples;
 
 import com.stewsters.util.pathing.twoDimention.shared.Mover2d;
 import com.stewsters.util.pathing.twoDimention.shared.PathNode2d;

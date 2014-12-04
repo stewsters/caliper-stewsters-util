@@ -1,4 +1,4 @@
-package benchmarks.test;
+package com.stewsters.examples;
 
 
 import com.stewsters.util.mapgen.CellType;

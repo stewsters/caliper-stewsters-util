@@ -1,8 +1,8 @@
-package benchmarks;
+package com.stewsters.benchmarks;
 
-import benchmarks.test.*;
 import com.google.caliper.Runner;
 import com.google.caliper.SimpleBenchmark;
+import com.stewsters.examples.*;
 import com.stewsters.util.pathing.threeDimention.pathfinder.AStarPathFinder3d;
 import com.stewsters.util.pathing.threeDimention.shared.FullPath3d;
 import com.stewsters.util.pathing.twoDimention.pathfinder.AStarPathFinder2d;
@@ -59,10 +59,6 @@ public class Pathfinder extends SimpleBenchmark {
     }
 
 
-    //======== main ========//
-    public static void main(String[] args) {
-        Runner.main(Pathfinder.class, args);
-    }
 
 
 }

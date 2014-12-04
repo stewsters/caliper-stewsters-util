@@ -22,7 +22,7 @@ dependencies {
 
 }
 
-mainClassName = 'benchmarks.Pathfinder'
+mainClassName = 'com.stewsters.benchmarks.RunAll'
 
 run {
     args '-Jsettings=-server,-XX:BiasedLockingStartupDelay=0'
